@@ -1,4 +1,4 @@
-import math_ops
+import maths_package.math_ops as math_ops
 
 num1 = 5
 num2 = 6
@@ -17,7 +17,7 @@ print(result_divide)
 
 # Another way to import
 print("----------------------------------------")
-from math_ops import add, subtract, multiply, divide
+from maths_package.math_ops import add, subtract, multiply, divide
 result_add = add(num1, num2)
 print(result_add)
 
